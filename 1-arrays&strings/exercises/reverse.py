@@ -12,5 +12,9 @@ def reverse(list_of_chars):
         right_index -= 1
 
 if __name__ == '__main__':
-    print(reverse(['a', 'b', 'c', 'd', 'e']))
-    print(reverse(['a', 'b', 'c', 'd']))
+    array = ['a', 'b', 'c', 'd', 'e']
+    reverse(array)
+    print(array)
+    array = ['a', 'b', 'c', 'd']
+    reverse(array)
+    print(array)
