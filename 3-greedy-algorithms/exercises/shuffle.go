@@ -10,7 +10,7 @@ func shuffle(list []int) []int {
 	i := 0
 	end := len(list) - 1
 	for i < len(list) {
-		j := rand.Intn(i-end) + i
+		j := rand.Intn(end-i) + i
 		if i != j {
 			list[i], list[j] = list[j], list[i]
 		}
